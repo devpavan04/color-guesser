@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Graduate&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+}
+
+.container {
+  margin: auto;
+  max-width: 1100px;
+  padding: 14rem 1rem;
+  overflow: hidden;
+}
+
+h1 {
+  font-family: "Graduate", cursive;
+  font-size: 3rem;
+  text-align: center;
+  color: rgb(206, 204, 204);
+}
+
+p {
+  font-family: 'Great Vibes', cursive;
+  color: #fff;
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.colors {
+  padding: 4rem 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.colors i {
+  cursor: pointer;
+  margin: 0 1rem;
+}
