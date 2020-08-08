@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Graduate&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 
 * {
   margin: 0;
@@ -22,11 +23,12 @@ h1 {
   font-family: "Graduate", cursive;
   font-size: 3rem;
   text-align: center;
-  color: rgb(206, 204, 204);
+  color: #fff;
+  padding-bottom: 3rem;
 }
 
 p {
-  font-family: 'Great Vibes', cursive;
+  font-family: "Satisfy", cursive;
   color: #fff;
   font-size: 2.4rem;
   text-align: center;

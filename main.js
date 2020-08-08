@@ -19,12 +19,12 @@ colorsArr.map((color) => {
   color.addEventListener('click', (e) => {
     // check if won
     if (e.target.style.color === rightColor) {
-      setMessage('Yaaaaay....You Win!', 'greenYellow')
+      setMessage('Yaaaaay....You Win!', '#33ff33')
       setTimeout(() => window.location.reload(), 2000);
     } else {
       guessesLeft -= 1
       if (guessesLeft === 0) {
-        lostMessage('Sorry! you Lost. The right color was', `${rightColor}`, 'white')
+        lostMessage('Sorry! you Lost. The right color was', `${rightColor}`, 'yellow')
         setTimeout(() => window.location.reload(), 3000);
       } else {
         setMessage(`Incorrect!, you have ${guessesLeft} guesses left`, 'red')
@@ -41,11 +41,8 @@ function setMessage(message, color) {
 
 // lost message
 function lostMessage(message, rightcolor, color) {
-  console.log(message)
-  console.log(rightcolor)
-  console.log(color)
   let iTag = document.createElement('i');
-  iTag.className = 'fas fa-circle fa-2x'
+  iTag.className = 'fas fa-circle fa-1x'
   iTag.style.color = rightcolor
   iTag.style.padding = '1rem'
   msg.textContent = message
